@@ -1,0 +1,9 @@
+/* Home page */
+.hero-home{min-height:640px}
+.hero-home .container{padding:120px 0 128px}
+.hero-home .container>*{max-width:800px}
+.hero-home .container>p{max-width:560px}
+.hero-home h1{font-size:clamp(2.8rem,6vw,5.4rem);margin:22px 0 26px}
+.hero-home p{font-size:1.25rem;max-width:560px}
+.hero-home .hero-art{width:66%}
+@media(max-width:640px){.hero-home .container{padding:84px 0 90px}.hero-home{min-height:0}}
